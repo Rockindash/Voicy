@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C630641CC56C7200F300BA /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C630631CC56C7200F300BA /* PlaySoundsViewController.swift */; };
+		A6C630661CC57F4E00F300BA /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C630651CC57F4E00F300BA /* PlaySoundsViewController+Audio.swift */; };
+		A6FF704B1CC2DD3100CFB052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF704A1CC2DD3100CFB052 /* AppDelegate.swift */; };
+		A6FF704D1CC2DD3100CFB052 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF704C1CC2DD3100CFB052 /* RecordSoundsViewController.swift */; };
+		A6FF70501CC2DD3100CFB052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FF704E1CC2DD3100CFB052 /* Main.storyboard */; };
+		A6FF70521CC2DD3100CFB052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FF70511CC2DD3100CFB052 /* Assets.xcassets */; };
+		A6FF70551CC2DD3100CFB052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FF70531CC2DD3100CFB052 /* LaunchScreen.storyboard */; };
+		A6FF70601CC2DD3100CFB052 /* VoicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF705F1CC2DD3100CFB052 /* VoicyTests.swift */; };
+		A6FF706B1CC2DD3100CFB052 /* VoicyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF706A1CC2DD3100CFB052 /* VoicyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6FF705C1CC2DD3100CFB052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FF703F1CC2DD3100CFB052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FF70461CC2DD3100CFB052;
+			remoteInfo = Voicy;
+		};
+		A6FF70671CC2DD3100CFB052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FF703F1CC2DD3100CFB052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FF70461CC2DD3100CFB052;
+			remoteInfo = Voicy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6C630631CC56C7200F300BA /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		A6C630651CC57F4E00F300BA /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		A6FF70471CC2DD3100CFB052 /* Voicy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voicy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF704A1CC2DD3100CFB052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6FF704C1CC2DD3100CFB052 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		A6FF704F1CC2DD3100CFB052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FF70511CC2DD3100CFB052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FF70541CC2DD3100CFB052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6FF70561CC2DD3100CFB052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FF705B1CC2DD3100CFB052 /* VoicyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoicyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF705F1CC2DD3100CFB052 /* VoicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicyTests.swift; sourceTree = "<group>"; };
+		A6FF70611CC2DD3100CFB052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FF70661CC2DD3100CFB052 /* VoicyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoicyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF706A1CC2DD3100CFB052 /* VoicyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicyUITests.swift; sourceTree = "<group>"; };
+		A6FF706C1CC2DD3100CFB052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FF70441CC2DD3100CFB052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70581CC2DD3100CFB052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70631CC2DD3100CFB052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6FF703E1CC2DD3100CFB052 = {
+			isa = PBXGroup;
+			children = (
+				A6FF70491CC2DD3100CFB052 /* Voicy */,
+				A6FF705E1CC2DD3100CFB052 /* VoicyTests */,
+				A6FF70691CC2DD3100CFB052 /* VoicyUITests */,
+				A6FF70481CC2DD3100CFB052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6FF70481CC2DD3100CFB052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF70471CC2DD3100CFB052 /* Voicy.app */,
+				A6FF705B1CC2DD3100CFB052 /* VoicyTests.xctest */,
+				A6FF70661CC2DD3100CFB052 /* VoicyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FF70491CC2DD3100CFB052 /* Voicy */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF704A1CC2DD3100CFB052 /* AppDelegate.swift */,
+				A6FF704C1CC2DD3100CFB052 /* RecordSoundsViewController.swift */,
+				A6FF704E1CC2DD3100CFB052 /* Main.storyboard */,
+				A6C630651CC57F4E00F300BA /* PlaySoundsViewController+Audio.swift */,
+				A6C630631CC56C7200F300BA /* PlaySoundsViewController.swift */,
+				A6FF70511CC2DD3100CFB052 /* Assets.xcassets */,
+				A6FF70531CC2DD3100CFB052 /* LaunchScreen.storyboard */,
+				A6FF70561CC2DD3100CFB052 /* Info.plist */,
+			);
+			path = Voicy;
+			sourceTree = "<group>";
+		};
+		A6FF705E1CC2DD3100CFB052 /* VoicyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF705F1CC2DD3100CFB052 /* VoicyTests.swift */,
+				A6FF70611CC2DD3100CFB052 /* Info.plist */,
+			);
+			path = VoicyTests;
+			sourceTree = "<group>";
+		};
+		A6FF70691CC2DD3100CFB052 /* VoicyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF706A1CC2DD3100CFB052 /* VoicyUITests.swift */,
+				A6FF706C1CC2DD3100CFB052 /* Info.plist */,
+			);
+			path = VoicyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6FF70461CC2DD3100CFB052 /* Voicy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF706F1CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "Voicy" */;
+			buildPhases = (
+				A6FF70431CC2DD3100CFB052 /* Sources */,
+				A6FF70441CC2DD3100CFB052 /* Frameworks */,
+				A6FF70451CC2DD3100CFB052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voicy;
+			productName = Voicy;
+			productReference = A6FF70471CC2DD3100CFB052 /* Voicy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FF705A1CC2DD3100CFB052 /* VoicyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF70721CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "VoicyTests" */;
+			buildPhases = (
+				A6FF70571CC2DD3100CFB052 /* Sources */,
+				A6FF70581CC2DD3100CFB052 /* Frameworks */,
+				A6FF70591CC2DD3100CFB052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FF705D1CC2DD3100CFB052 /* PBXTargetDependency */,
+			);
+			name = VoicyTests;
+			productName = VoicyTests;
+			productReference = A6FF705B1CC2DD3100CFB052 /* VoicyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6FF70651CC2DD3100CFB052 /* VoicyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FF70751CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "VoicyUITests" */;
+			buildPhases = (
+				A6FF70621CC2DD3100CFB052 /* Sources */,
+				A6FF70631CC2DD3100CFB052 /* Frameworks */,
+				A6FF70641CC2DD3100CFB052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FF70681CC2DD3100CFB052 /* PBXTargetDependency */,
+			);
+			name = VoicyUITests;
+			productName = VoicyUITests;
+			productReference = A6FF70661CC2DD3100CFB052 /* VoicyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FF703F1CC2DD3100CFB052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "amol kumar";
+				TargetAttributes = {
+					A6FF70461CC2DD3100CFB052 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = LNG8PFABR7;
+					};
+					A6FF705A1CC2DD3100CFB052 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6FF70461CC2DD3100CFB052;
+					};
+					A6FF70651CC2DD3100CFB052 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A6FF70461CC2DD3100CFB052;
+					};
+				};
+			};
+			buildConfigurationList = A6FF70421CC2DD3100CFB052 /* Build configuration list for PBXProject "Voicy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6FF703E1CC2DD3100CFB052;
+			productRefGroup = A6FF70481CC2DD3100CFB052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6FF70461CC2DD3100CFB052 /* Voicy */,
+				A6FF705A1CC2DD3100CFB052 /* VoicyTests */,
+				A6FF70651CC2DD3100CFB052 /* VoicyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FF70451CC2DD3100CFB052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF70551CC2DD3100CFB052 /* LaunchScreen.storyboard in Resources */,
+				A6FF70521CC2DD3100CFB052 /* Assets.xcassets in Resources */,
+				A6FF70501CC2DD3100CFB052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70591CC2DD3100CFB052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70641CC2DD3100CFB052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FF70431CC2DD3100CFB052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF704D1CC2DD3100CFB052 /* RecordSoundsViewController.swift in Sources */,
+				A6C630661CC57F4E00F300BA /* PlaySoundsViewController+Audio.swift in Sources */,
+				A6C630641CC56C7200F300BA /* PlaySoundsViewController.swift in Sources */,
+				A6FF704B1CC2DD3100CFB052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70571CC2DD3100CFB052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF70601CC2DD3100CFB052 /* VoicyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FF70621CC2DD3100CFB052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FF706B1CC2DD3100CFB052 /* VoicyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6FF705D1CC2DD3100CFB052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FF70461CC2DD3100CFB052 /* Voicy */;
+			targetProxy = A6FF705C1CC2DD3100CFB052 /* PBXContainerItemProxy */;
+		};
+		A6FF70681CC2DD3100CFB052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FF70461CC2DD3100CFB052 /* Voicy */;
+			targetProxy = A6FF70671CC2DD3100CFB052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FF704E1CC2DD3100CFB052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FF704F1CC2DD3100CFB052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FF70531CC2DD3100CFB052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FF70541CC2DD3100CFB052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6FF706D1CC2DD3100CFB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6FF706E1CC2DD3100CFB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6FF70701CC2DD3100CFB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Voicy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.Voicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A6FF70711CC2DD3100CFB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Voicy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.Voicy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A6FF70731CC2DD3100CFB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoicyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.VoicyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicy.app/Voicy";
+			};
+			name = Debug;
+		};
+		A6FF70741CC2DD3100CFB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoicyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.VoicyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voicy.app/Voicy";
+			};
+			name = Release;
+		};
+		A6FF70761CC2DD3100CFB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoicyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.VoicyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Voicy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6FF70771CC2DD3100CFB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoicyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amolkmr.VoicyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Voicy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6FF70421CC2DD3100CFB052 /* Build configuration list for PBXProject "Voicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF706D1CC2DD3100CFB052 /* Debug */,
+				A6FF706E1CC2DD3100CFB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF706F1CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "Voicy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF70701CC2DD3100CFB052 /* Debug */,
+				A6FF70711CC2DD3100CFB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF70721CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "VoicyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF70731CC2DD3100CFB052 /* Debug */,
+				A6FF70741CC2DD3100CFB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FF70751CC2DD3100CFB052 /* Build configuration list for PBXNativeTarget "VoicyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FF70761CC2DD3100CFB052 /* Debug */,
+				A6FF70771CC2DD3100CFB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6FF703F1CC2DD3100CFB052 /* Project object */;
+}
